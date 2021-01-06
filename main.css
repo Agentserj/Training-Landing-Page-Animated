@@ -1,0 +1,190 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	line-height: 2em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #4DBBFC;
+	background: -webkit-linear-gradient(top left, #4DBBFC, #3791D9);
+	background: -moz-linear-gradient(top left, #4DBBFC, #3791D9);
+	background: linear-gradient(to bottom right, #4DBBFC, #3791D9);
+	padding-top: 55px;
+	padding-bottom: 140px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 145px;
+	width: 565px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-top: 48px;
+	margin-bottom: 45px;
+	width: 400px;
+
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ffd429;
+	color: #000;
+	display: block;
+	width: 215px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #bb9e28;
+}
+
+.travel {
+	margin-top: 80px;
+}
+
+.wayting {
+	padding-top: 110px;
+	padding-bottom: 121px;
+}
+
+.section-title {
+	font-size: 30px;
+	padding-left: 400px;
+}
+
+.image1 {
+	padding-top: 57px;
+	padding-bottom: 15px;
+}
+
+.image2 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.image3 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+.tricks {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.trick {
+	width: 290px;
+
+}
+
+.trick-title {
+	font-size: 19px;
+
+}
+
+.trick-text {
+	margin-top: 15px;
+	width: 300px;
+}
+
+.ticket {
+	background: #ecf2f8;
+	padding-top: 100px;
+	padding-bottom: 470px;
+
+}
+
+.section-title-ticket {
+	font-size: 30px;
+	padding-left: 335px;
+	padding-bottom: 65px;
+}
+
+.input {
+	width: 333px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 44px;
+	padding-left: 23px;
+
+}
+
+.btn-form {
+	border: 0;
+	width: 333px; 
+}
+
+.form {
+	margin-left: 400px;
+}
+
+.input1 {
+	margin: 20px;
+}
+
+.input2 {
+	margin: 20px;
+}
+
+.input3 {
+	margin: 20px;
+}
+
+.input4 {
+	margin: 20px;
+}
+
+.input5 {
+	margin: 20px;
+}
+
+.footer {
+	padding: 60px 0;
+	margin-top:-400px;
+	background: #164d7a;
+	color:#fff;
+	text-align: center;
+
+}
+.credits {
+	font-size: 14px;
+	margin: 0;
+}
