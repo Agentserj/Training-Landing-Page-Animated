@@ -22,7 +22,7 @@ p {
 .container {
 	width: 1170px;
 	margin: 0 auto;
-	overflow: auto;
+	
 }
 
 .header {
@@ -88,7 +88,7 @@ p {
 
 .section-title {
 	font-size: 30px;
-	/*padding-left: 400px;*/
+	padding-left: 400px;
 }
 
 .image1 {
@@ -118,12 +118,13 @@ p {
 
 .trick-title {
 	font-size: 19px;
+	margin-left: 50px;
 
 }
 
 .trick-text {
-	margin: 20px, 20px;
-	width: 300px;
+	margin-left: 40px;
+
 }
 
 .ticket {
@@ -198,21 +199,21 @@ p {
 
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
-	.conteiner {
+	.container {
 		width: 960px;
 	}
 	.title {
-		width: 590px;
+		width: 400px;
 	}
 }
 
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
-	.conteiner {
+	.container {
 		width: 768px;
 	}
 	.section-title {
-		margin-right: 400px;
+		margin-right: 300px;
 	}
 	.wrapper {
 		flex-direction: column;
@@ -230,18 +231,23 @@ p {
 	.tricks {
 		flex-direction: column;
 	}
+
+	/*.trick {
+		flex-direction: column;
+	}*/
+
 }
 	
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
-	.conteiner {
+	.container {
 		width: 576px;
 	}
 }
 	
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
-	.conteiner {
+	.container {
 		width: 320px;
 	}
 }
