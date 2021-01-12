@@ -77,7 +77,8 @@ p {
 }
 
 .travel {
-	margin-top: 80px;
+	margin-top: 150px;
+	height: 400px; 
 
 }
 
@@ -89,19 +90,23 @@ p {
 .section-title {
 	font-size: 30px;
 	padding-left: 400px;
+	text-align: center;
 }
 
 .image1 {
+	padding-left: 50px;
 	padding-top: 57px;
 	padding-bottom: 15px;
 }
 
 .image2 {
+	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 15px;
 }
 
 .image3 {
+	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 15px;
 }
@@ -138,6 +143,7 @@ p {
 	font-size: 30px;
 	padding-left: 335px;
 	padding-bottom: 65px;
+	text-align: center;
 }
 
 .input {
@@ -205,6 +211,20 @@ p {
 	.title {
 		width: 400px;
 	}
+	.section-title {
+		padding: 0;
+	}
+	.section-title-ticket {
+		padding: 0px;
+		
+	}
+	.form {
+		margin: 50px;
+	}
+	.footer {
+		text-align: left ;
+	}
+	
 }
 
 /* 768px - 992px */
@@ -212,9 +232,7 @@ p {
 	.container {
 		width: 768px;
 	}
-	.section-title {
-		margin-right: 300px;
-	}
+
 	.wrapper {
 		flex-direction: column;
 	}
@@ -232,17 +250,34 @@ p {
 		flex-direction: column;
 	}
 
-	/*.trick {
-		flex-direction: column;
-	}*/
-
 }
 	
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
 	.container {
-		width: 576px;
+		width: 540px;
 	}
+	.title {
+		width: 400px;
+	}
+	.intro {
+		width: 400px;
+	}
+	.section-title {
+		font-size: 25px;
+		text-align: center;
+	}
+	.section-title-ticket {
+		font-size: 25px;
+		text-align: center;
+	}
+	.form {
+		margin-left: 0px;
+	}
+	.footer {
+		text-align: center;
+	}
+
 }
 	
 /* 320px - 576px */
@@ -250,4 +285,36 @@ p {
 	.container {
 		width: 320px;
 	}
+	.title {
+		width: 200px;
+		font-size: 20px;
+	}
+	.title span {
+		width: auto;
+		font-size: 30px;
+	}
+
+	.section-title {
+		font-size: 20px;
+		text-align: center;
+	}
+	.section-title-ticket {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.intro {
+		width: 280px;
+	}
+	.travel {
+		width: 320px;
+	}
+	.btn-form {
+		width: 280px; 
+	}
+	.input {
+		width: 280px;
+		font-size: 13px;
+	}
+
 }
