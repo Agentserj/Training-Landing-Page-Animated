@@ -1,47 +1,55 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #201b2d;
-	font-size: 16px;
-	padding: 0;
+	font-size: 15px;
 	margin: 0;
+	padding: 0;
 }
 
 div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 
+button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
 }
 
 p {
-	line-height: 2em;
+	line-height: 1.6em;
 }
 
 .container {
 	width: 1170px;
 	margin: 0 auto;
-	
 }
 
 .header {
-	background: #4DBBFC;
-	background: -webkit-linear-gradient(top left, #4DBBFC, #3791D9);
-	background: -moz-linear-gradient(top left, #4DBBFC, #3791D9);
-	background: linear-gradient(to bottom right, #4DBBFC, #3791D9);
-	padding-top: 55px;
-	padding-bottom: 140px;
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
 	color: #fff;
+	padding-bottom: 130px;
 }
 
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items:center;
 }
 
 .offer {
-	margin-top: 145px;
 	width: 565px;
 }
 
@@ -50,22 +58,23 @@ p {
 }
 
 .title span {
-	font-size: 59px;
+	font-size: 50px;
 }
 
 .intro {
-	margin-top: 48px;
-	margin-bottom: 45px;
+	font-size: 16px;
+	margin-bottom: 36px;
 	width: 400px;
-
 }
 
 .btn {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
 	background: #ffd429;
 	color: #000;
+	border: 50px;
 	display: block;
-	width: 215px;
+	width: 220px;
 	padding: 20px 0;
 	text-align: center;
 	text-decoration: none;
@@ -77,239 +86,77 @@ p {
 }
 
 .travel {
-	margin-top: 150px;
-	height: 400px; 
-
+	margin-top: 90px;
 }
 
-.wayting {
-	padding-top: 110px;
-	padding-bottom: 121px;
+.wait {
+	margin-top: 100px; 
+	margin-bottom: 120px;
+}
+
+.skills	{
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill {
+	width: 300px;
+	text-align: center;
+}
+
+.skill-title {
+	padding-top: 20px;
 }
 
 .section-title {
 	font-size: 30px;
-
+	margin-bottom: 70px;
+	text-align: center
 }
 
-.image1 {
-	padding-left: 50px;
-	padding-top: 57px;
-	padding-bottom: 15px;
-}
-
-.image2 {
-	padding-left: 50px;
-	padding-top: 50px;
-	padding-bottom: 15px;
-}
-
-.image3 {
-	padding-left: 50px;
-	padding-top: 50px;
-	padding-bottom: 15px;
-}
-.tricks {
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-}
-
-.trick {
+.skill-text {
+	font-size: 16px;
+	margin-top: 20px;
 	width: 290px;
-
-}
-
-.trick-title {
-	font-size: 19px;
-	margin-left: 50px;
-
-}
-
-.trick-text {
-	margin-left: 40px;
-
 }
 
 .ticket {
 	background: #ecf2f8;
 	padding-top: 100px;
-	padding-bottom: 470px;
-
-}
-
-.section-title-ticket {
-	font-size: 30px;
-	padding-left: 335px;
-	padding-bottom: 65px;
-	
-}
-
-.input {
-	width: 333px;
-	border: 1px solid #bbbbbb;
-	font-size: 15px;
-	font-family: 'Ubuntu', sans-serif;
-	height: 44px;
-	padding-left: 23px;
-
-}
-
-.btn-form {
-	border: 0;
-	width: 333px; 
+	padding-bottom: 100px;
 }
 
 .form {
-	margin-left: 400px;
+	 max-width: 340px ; 
+	 margin: 0 auto; 
 }
 
-.input1 {
-	margin: 20px;
+.input {
+	width: 100%;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 5px;
+	height: 42px;
+	padding-left: 23px;
+	margin: 0 auto 15px;
+	display: block;
 }
 
-.input2 {
-	margin: 20px;
-}
+.btn-form {
+	margin: 0 auto;
+	width: 100%;
 
-.input3 {
-	margin: 20px;
-}
-
-.input4 {
-	margin: 20px;
-}
-
-.input5 {
-	margin: 20px;
 }
 
 .footer {
 	padding: 60px 0;
-	margin-top:-400px;
 	background: #164d7a;
-	color:#fff;
-	text-align: center;
-
 }
 
 .credits {
+	color: #fff;
 	font-size: 14px;
 	margin: 0;
-}
-
-
-/*Responsive*/
-
-
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
-	.container {
-		width: 960px;
-	}
-	/*.title {
-		width: 400px;
-	}*/
-	/*.section-title {
-		padding: 0;
-		text-align: center;
-	}*/
-	/*.section-title-ticket {
-		padding: 0px;
-		text-align: center;
-		
-	}*/
-	/*.form {
-		margin: 50px;
-	}*/
-	/*.footer {
-		text-align: left ;
-	}*/
-	
-}
-
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
-	.container {
-		width: 760px;
-	}
-
-	.wrapper {
-		flex-direction: column;
-	}
-	.offer {
-		width: 100%;
-	}
-
-	.travel {
-		display: block;
-	    width: 330px;
-	}
-}
-	
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-	.container {
-		width: 540px;
-	}
-	.title {
-		width: 400px;
-	}
-	.intro {
-		width: 400px;
-	}
-	.section-title {
-		font-size: 25px;
-		text-align: center;
-	}
-	.section-title-ticket {
-		font-size: 25px;
-		text-align: center;
-	}
-	.form {
-		margin-left: 0px;
-	}
-	.footer {
-		text-align: center;
-	}
-
-}
-	
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-	.container {
-		width: 320px;
-	}
-	.title {
-		width: 200px;
-		font-size: 20px;
-	}
-	.title span {
-		width: auto;
-		font-size: 30px;
-	}
-
-	.section-title {
-		font-size: 20px;
-		text-align: center;
-	}
-	.section-title-ticket {
-		font-size: 20px;
-		text-align: center;
-	}
-
-	.intro {
-		width: 280px;
-	}
-	.travel {
-		width: 320px;
-	}
-	.btn-form {
-		width: 280px; 
-	}
-	.input {
-		width: 280px;
-		font-size: 13px;
-	}
-
+	padding-left: 400px;
 }
