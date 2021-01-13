@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Верстка современного сайта</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -12,87 +13,71 @@
 		<div class="container">
 			<img src="img/logo.png" alt="WAYUP" class="logo">
 				<div class="wrapper">
-					<div class="offer">
-						<h1 class="title">
-							С помощью верстки я создам ту жизнь, о которой<br> <span>мечтаю!</span>
-						</h1>
-						<p class="intro">
-							Мои стремления + настойчивость позволят мне <br> достичь чего угодно. Я верю в это. Я знаю это на <br> 100%. Меня не остановить!
-						</p>
-						<a href="#" class="btn">Узнать больше</a>
-					</div>
-					<img src="img/travel.png" alt="Code travel" class="travel"> 
+						<div class="offer">
+							<h1 class="title">
+								<p class="title-text">С помощью верстки<br>я создам ту жизнь, о которой<br><span>мечтаю!</span>
+								</p>
+							</h1>
+							<p class="intro">
+								Мои стремления + настойчивость позволят мне достичь чего угодно. Я верю в это. Я знаю это на 100%. Меня не остановить!
+							</p>
+							<a href="#" class="btn">Двигаться к мечте!</a>
+						</div>
+					<img src="img/travel.png" alt="travel" class="travel">
 				</div>
-		</div>	
+		</div>
 	</header>
-	<section id="wayting" class="wayting">
+	<section id="wait" class="wait">
 		<div class="container">
 			<h2 class="section-title">Что меня ждет впереди</h2>
-			<div class="tricks">
-						<div class="trick">
-							<div class="tricks-image">
-								<img src="img/image1.jpg" class="image1" alt="time">
-							<div class="trick">
-					<h3 class="trick-title">
-						Свободное время
-					</h3>
-					<p class="trick-text">
-						Мне нужно свободное время на семью и самое настоящее
-					</p>
-						</div>
-						</div>
-						</div>	
-				<div class="trick">
-					<div class="tricks-image">
-								<img src="img/image2.jpg" class="image2" alt="palma">
-							<div class="trick">
-					<h3 class="trick-title">
-						Яркие путешествия
-					</h3>
-					<p class="trick-text">
-						Работать откуда угодно - что может быть лучше?
-					</p>
+				<div class="skills">
+						<div class="skill">	
+							<div class="image-skills">
+								<img src="img/image1.jpg" class="image" alt="time">
 							</div>
-					</div>
-				</div>
-				<div class="trick">
-					<div class="tricks-image">
-								<img src="img/image3.jpg" class="image3" alt="rocket">
-							<div class="trick">
-								<h3 class="trick-title">
+									<h3 class="skill-title">Свободное время</h3>
+									<p class="skill-text">
+										Мне нужно свободное время на семью и самое настоящее
+									</p>
+						</div>
+						<div class="skill">
+							<div class="image-skills">
+								<img src="img/image2.jpg" class="image" alt="palma">
+							</div>
+								<h3 class="skill-title">
+									Яркие путешествия
+								</h3>
+								<p class="skill-text">
+									Работать откуда угодно - что может быть лучше? 
+								</p>
+						</div>
+						<div class="skill">
+							<div class="image-skills">
+								<img src="img/image3.jpg" class="image" alt="rocket">
+							</div>
+								<h3 class="skill-title">
 									Создание ценности
 								</h3>
-								<p class="trick-text">
-								Нет ничего сильнее, чем жить просто так, создавая ценность
+								<p class="skill-text">
+									Нет ничего сильнее, чем жить не просто так, создавая ценность
 								</p>
-							</div>
-					</div>
-				</div>
-			</div>
+						</div>
+			</div>	
 		</div>
 	</section>
 	<section id="ticket" class="ticket">
 		<div class="container">
-			<h2 class="section-title-ticket">Форма заказа билета в будущее
+			<h2 class="section-title">
+				Форма заказа билета в будущее
 			</h2>
-			<form action="#" class="form">
-					<div class="input1">
-						<input placeholder="Имя" name="name" class="input" required>
-					</div>
-					<div class="input2">
-						<input  placeholder="E-mail" name="email" class="input" required>
-					</div>	
-					<div class="input3">
-						<input  placeholder="Телефон" name="tel" class="input" required>
-					</div>
-					<div class="input4">
-						<input  placeholder="Куда я полечу в ближайшее время?" name="where" class="input" required>
-					</div>
-					<div class="input5">
-						<button type="submit" class="btn btn-form">Двигаться к мечте!</button>
-					</div>
-			</form>
-		</div>	
+		<form action="#" class="form">
+			<input placeholder="Имя" name="name" class="input" required>	
+			<input type="email" placeholder="E-mail" name="e-mail" class="input" required>
+			<input type="tel" placeholder="Телефон" name="tel" class="input" required>
+			<input type="text" placeholder="Куда я полечу в ближайшее время?" name="text" class="input">
+			<button type="submit" class="btn btn-form">Двигаться к мечте!</button>
+		</form>
+		</div>
 	</section>
 	<footer id="footer" class="footer">
 		<div class="container">
@@ -103,4 +88,3 @@
 	</footer>
 </body>
 </html>
-	
