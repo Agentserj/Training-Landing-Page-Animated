@@ -4,6 +4,7 @@ body {
 	font-size: 15px;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -161,6 +162,13 @@ p {
 	padding-left: 400px;
 }
 
+.red {
+	color: red;
+}
+
+/*.animated {
+	opacity: 0;
+}*/
 /*Responsive*/
 
 
@@ -214,7 +222,7 @@ p {
 		width: 540px;
 	}
 	.skill {
-		margin-left: 100px;
+		margin-left: 120px;
 	}
 
 	.credits {
@@ -232,8 +240,24 @@ p {
 	    width: 300px; 
 	}
 
+	.credits {
+		padding-left: 0px;
+    	text-align: center;	
+	}
+}
+
+/* 0px - 320px */
+@media screen and (max-width: 320px) {
+	.container {
+		width: 90%;
+	}
+
+	.travel {
+	    width: 300px; 
+	}
+
 	.skill {
-		margin-left: 25px;
+		margin-left: 0px;
 	}
 
 	.credits {
@@ -241,5 +265,4 @@ p {
     	text-align: center;	
 	}
 	
-
 }
