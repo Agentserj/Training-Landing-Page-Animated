@@ -6,14 +6,15 @@
 	<title>Верстка современного сайта</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			<img src="img/logo.png" alt="WAYUP" class="logo">
+			<img src="img/logo.png" alt="WAYUP" class="logo animated fadeInDown">
 				<div class="wrapper">
-						<div class="offer">
+						<div class="offer animated fadeInLeft">
 							<h1 class="title">
 								<p class="title-text">С помощью верстки<br>я создам ту жизнь, о которой<br><span>мечтаю!</span>
 								</p>
@@ -21,15 +22,15 @@
 							<p class="intro">
 								Мои стремления + настойчивость позволят мне достичь чего угодно. Я верю в это. Я знаю это на 100%. Меня не остановить!
 							</p>
-							<a href="#" class="btn">Двигаться к мечте!</a>
+							<a href="#" class="btn"	id="btn">Двигаться к мечте!</a>
 						</div>
-					<img src="img/travel.png" alt="travel" class="travel">
+					<img src="img/travel.png" alt="travel" class="travel animated fadeInRight">
 				</div>
 		</div>
 	</header>
 	<section id="wait" class="wait">
 		<div class="container">
-			<h2 class="section-title">Что меня ждет впереди</h2>
+			<h2 class="section-title animated">Что меня ждет впереди</h2>
 				<div class="skills">
 						<div class="skill">	
 							<div class="image-skills">
@@ -44,9 +45,7 @@
 							<div class="image-skills">
 								<img src="img/image2.jpg" class="image" alt="palma">
 							</div>
-								<h3 class="skill-title">
-									Яркие путешествия
-								</h3>
+								<h3 class="skill-title">Яркие путешествия</h3>
 								<p class="skill-text">
 									Работать откуда угодно - что может быть лучше? 
 								</p>
@@ -55,9 +54,7 @@
 							<div class="image-skills">
 								<img src="img/image3.jpg" class="image" alt="rocket">
 							</div>
-								<h3 class="skill-title">
-									Создание ценности
-								</h3>
+								<h3 class="skill-title">Создание ценности</h3>
 								<p class="skill-text">
 									Нет ничего сильнее, чем жить не просто так, создавая ценность
 								</p>
@@ -67,9 +64,7 @@
 	</section>
 	<section id="ticket" class="ticket">
 		<div class="container">
-			<h2 class="section-title">
-				Форма заказа билета в будущее
-			</h2>
+			<h2 class="section-title animated">Форма заказа билета в будущее</h2>
 		<form action="#" class="form">
 			<input placeholder="Имя" name="name" class="input" required>	
 			<input type="email" placeholder="E-mail" name="e-mail" class="input" required>
@@ -86,5 +81,8 @@
 			</p>
 		</div>
 	</footer>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
